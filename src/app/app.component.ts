@@ -31,7 +31,6 @@ export class AppComponent {
     let formRequest = { name, going, contactnumber, totalpeople };
     this.db.list('/messages').push(formRequest);
     if (this.form.valid) {
-      console.log("Thank you");
       this.form.reset();
       this.successMessage = true;
     }
