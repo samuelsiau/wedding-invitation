@@ -11,10 +11,16 @@ import { environment } from '../environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { TotalpageComponent } from './totalpage/totalpage.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomepageComponent,
+    TotalpageComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,

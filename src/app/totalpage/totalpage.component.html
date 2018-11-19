@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <a [routerLink]="['/home']" class="btn btn-primary">Back to home</a>
+        <ul class="list-group" >
+          <li class="list-group-item" *ngFor="let message of messages | async">
+            <h5>{{ message.name }}</h5>
+            <p class="mb-0">{{ message.going }}</p>
+            <p class="mb-0">{{ message.totalpeople }}</p>
+          </li>
+        </ul>
+    </div>
+  </div>
+</div>

@@ -316,6 +316,9 @@ MIT
 @angular/platform-browser
 MIT
 
+@angular/router
+MIT
+
 @angular/forms
 MIT
 
@@ -326,9 +329,6 @@ MIT
 MIT
 
 firebase/database
-
-@angular/router
-MIT
 
 zone.js
 MIT
